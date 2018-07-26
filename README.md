@@ -72,11 +72,3 @@ Assume that there are N time intervals in total, then we have N such matrixes as
 | .. |   ...  |
 
 Only one KPI file, which contains N KPI values. 
-
-## Synthetic Data:
-
-The synthetic datasets are available in **[Google Drive](https://drive.google.com/drive/folders/1rbyK15h8alihUfEO68_JSz9F0vQSq3C3?usp=sharing)**, which can be used to validate the cascading clustering algorithm. Descriptions about the datasets can be found in the README.txt file
-
-
-
-
