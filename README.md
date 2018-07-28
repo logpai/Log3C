@@ -1,7 +1,7 @@
 # Log3C (FSE 2018 accepted paper)
 
 
-Log3C is a general framework that identifies service system problems from system logs. It utilizes both system logs and system KPIs to promptly and precisely identify impactful system problems. Log**3C** consists of four steps: Log parsing, Sequence vectorization, **C**ascading **C**lustering and **C**orrelation analysis. This is a joint work by CUHK and Microsoft Research, Asia. More details are introduced in our paper. 
+Log3C is a general framework that identifies service system problems from system logs. It utilizes both system logs and system KPIs to promptly and precisely identify impactful system problems. Log**3C** consists of five steps: Log parsing, Sequence vectorization, **C**ascading **C**lustering and **C**orrelation analysis. This is a joint work by CUHK and Microsoft Research, Asia. More details are introduced in our paper. 
 
 
 **Paper title:** Identifying Impactful Service System Problems via Log Analysis 
@@ -9,7 +9,7 @@ Log3C is a general framework that identifies service system problems from system
 **Authors:** Shilin He, Qingwei Lin, Jian-Guang Lou, Hongyu Zhang, Michael R. Lyu, Dongmei Zhang
 
 
-The repository contains the source code of Log3C, including data loading, sequence vectorization, cascading clustering, data saving, and etc. The core part is the cascading clustering algorithm, which groups a large number of sequence vectors into clusters by iteratively sampling, clustering, matching. 
+The repository contains the source code of Log3C, including data loading, sequence vectorization, cascading clustering, data saving, etc. The core part is the cascading clustering algorithm, which groups a large number of sequence vectors into clusters by iteratively sampling, clustering, matching. 
 
 
 ## Prerequisites:
@@ -24,7 +24,7 @@ Note: Anaconda (Python 3.5 or above) is highly recommended, all required package
 ## Installing:
 1. Download the project code files with:
 
-`git clone https://github.com/AnonymousPaper/Log3C.git`
+`git clone https://github.com/logpai/Log3C.git`
 
 2. Go to the project directory
 
