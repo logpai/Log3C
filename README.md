@@ -1,4 +1,7 @@
-# Log3C (FSE 2018 accepted paper)
+<p align="center"> <img src="https://github.com/logpai/logpai.github.io/blob/master/img/logpai_logo.jpg" width="500" height="125"/>
+</p>
+
+# Log3C
 
 
 Log3C is a general framework that identifies service system problems from system logs. It utilizes both system logs and system KPIs to promptly and precisely identify impactful system problems. Log**3C** consists of four steps: Log parsing, Sequence vectorization, **C**ascading **C**lustering and **C**orrelation analysis. This is a joint work by CUHK and Microsoft Research, Asia. More details are introduced in our paper. 
