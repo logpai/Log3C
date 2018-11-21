@@ -7,7 +7,7 @@
 Log3C is a general framework that identifies service system problems from system logs. It utilizes both system logs and system KPIs to promptly and precisely identify impactful system problems. Log**3C** consists of four steps: Log parsing, Sequence vectorization, **C**ascading **C**lustering and **C**orrelation analysis. This is a joint work by CUHK and Microsoft Research, Asia. More details are introduced in our paper. 
 
 
-**Paper title:** [Identifying Impactful Service System Problems via Log Analysis](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/Identifying-Impactful-Service-System-Problems-via-Log-Analysis.pdf) 
+**Paper title:** [Identifying Impactful Service System Problems via Log Analysis](http://delivery.acm.org/10.1145/3240000/3236083/fse18main-id90-p.pdf) 
 
 **Authors:** Shilin He, Qingwei Lin, Jian-Guang Lou, Hongyu Zhang, Michael R. Lyu, Dongmei Zhang
 
