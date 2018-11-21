@@ -9,8 +9,15 @@ Log3C is a general framework that identifies service system problems from system
 
 **Paper title:** [Identifying Impactful Service System Problems via Log Analysis](http://delivery.acm.org/10.1145/3240000/3236083/fse18main-id90-p.pdf) 
 
-**Authors:** Shilin He, Qingwei Lin, Jian-Guang Lou, Hongyu Zhang, Michael R. Lyu, Dongmei Zhang
-
+**Cite**
+> @inproceedings{he2018identifying, <br />
+  title={Identifying impactful service system problems via log analysis}, <br />
+  author={He, Shilin and Lin, Qingwei and Lou, Jian-Guang and Zhang, Hongyu and Lyu, Michael R and Zhang, Dongmei}, <br />
+  booktitle={Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering}, <br />
+  pages={60--70}, <br />
+  year={2018}, <br />
+  organization={ACM}<br />
+}<br />
 
 The repository contains the source code of Log3C, including data loading, sequence vectorization, cascading clustering, data saving, etc. The core part is the cascading clustering algorithm, which groups a large number of sequence vectors into clusters by iteratively sampling, clustering, matching. 
 
