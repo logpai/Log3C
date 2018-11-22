@@ -3,24 +3,11 @@
 
 # Log3C
 
+Log3C is a general framework that identifies service system problems from system logs. It utilizes both system logs and system KPIs to promptly and precisely identify impactful system problems. Log**3C** consists of four steps: Log parsing, Sequence vectorization, **C**ascading **C**lustering and **C**orrelation analysis. This is a joint work by CUHK and Microsoft Research. 
 
-Log3C is a general framework that identifies service system problems from system logs. It utilizes both system logs and system KPIs to promptly and precisely identify impactful system problems. Log**3C** consists of four steps: Log parsing, Sequence vectorization, **C**ascading **C**lustering and **C**orrelation analysis. This is a joint work by CUHK and Microsoft Research, Asia. More details are introduced in our paper. 
+The repository contains the source code of Log3C, including data loading, sequence vectorization, cascading clustering, data saving, etc. The core part is the cascading clustering algorithm, which groups a large number of sequence vectors into clusters by iteratively sampling, clustering, matching. For more details, please refer to our paper:
 
-
-**Paper title:** [Identifying Impactful Service System Problems via Log Analysis](http://delivery.acm.org/10.1145/3240000/3236083/fse18main-id90-p.pdf) 
-
-**Cite**
-> @inproceedings{he2018identifying, <br />
-  title={Identifying impactful service system problems via log analysis}, <br />
-  author={He, Shilin and Lin, Qingwei and Lou, Jian-Guang and Zhang, Hongyu and Lyu, Michael R and Zhang, Dongmei}, <br />
-  booktitle={Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering}, <br />
-  pages={60--70}, <br />
-  year={2018}, <br />
-  organization={ACM}<br />
-}<br />
-
-The repository contains the source code of Log3C, including data loading, sequence vectorization, cascading clustering, data saving, etc. The core part is the cascading clustering algorithm, which groups a large number of sequence vectors into clusters by iteratively sampling, clustering, matching. 
-
++ Shilin He, Qingwei Lin, Jian-Guang Lou, Hongyu Zhang, Michael R. Lyu, Dongmei Zhang. [Identifying Impactful Service System Problems via Log Analysis](https://dl.acm.org/citation.cfm?id=3236083), in Proc. of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2018.
 
 ## Prerequisites:
 * Python version 3.5 or above
