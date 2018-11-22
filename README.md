@@ -21,11 +21,11 @@ Note: Anaconda (Python 3.5 or above) is highly recommended, all required package
 ## Installing:
 1. Download the project code files with:
 
-  `git clone https://github.com/logpai/Log3C.git`
+   `git clone https://github.com/logpai/Log3C.git`
 
 2. Go to the project directory
 
-  `cd Log3C`
+   `cd Log3C`
 
 ## Usage:
 
